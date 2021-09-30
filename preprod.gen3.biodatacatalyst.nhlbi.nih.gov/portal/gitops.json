@@ -311,6 +311,9 @@
     "dropdowns": {
       "download": {
         "title": "Download"
+      },
+      "sevenBridges": {
+        "title": "Export to Seven Bridges"
       }
     },
     "buttons": [
@@ -322,9 +325,27 @@
       },
       {
         "enabled": true,
-        "type": "export-to-seven-bridges",
-        "title": "Export All to Seven Bridges",
-        "rightIcon": "external-link"
+        "type": "export-pfb-to-url",
+        "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
+        "title": "Export to Seven Bridges",
+        "rightIcon": "external-link",
+        "dropdownId": "sevenBridges"
+      },
+      {
+        "enabled": true,
+        "type": "export-pfb-to-url",
+        "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
+        "title": "Export to CGC",
+        "rightIcon": "external-link",
+        "dropdownId": "sevenBridges"
+      },
+      {
+        "enabled": true,
+        "type": "export-pfb-to-url",
+        "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
+        "title": "Export to Cavatica",
+        "rightIcon": "external-link",
+        "dropdownId": "sevenBridges"
       },
       {
         "enabled": true,
