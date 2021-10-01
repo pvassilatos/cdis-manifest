@@ -320,14 +320,14 @@
       {
         "enabled": true,
         "type": "export",
-        "title": "Export All to Terra",
+        "title": "Export to Terra (old)",
         "rightIcon": "external-link"
       },
       {
         "enabled": true,
         "type": "export-pfb-to-url",
         "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
-        "title": "Export to BioData Catalyst",
+        "title": "Export to Terra (new)",
         "rightIcon": "external-link",
         "dropdownId": "sevenBridges"
       },
