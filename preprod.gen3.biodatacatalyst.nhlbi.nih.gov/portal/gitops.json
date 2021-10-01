@@ -327,7 +327,7 @@
         "enabled": true,
         "type": "export-pfb-to-url",
         "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
-        "title": "Export to Seven Bridges",
+        "title": "Export to BioData Catalyst",
         "rightIcon": "external-link",
         "dropdownId": "sevenBridges"
       },
@@ -343,7 +343,7 @@
         "enabled": true,
         "type": "export-pfb-to-url",
         "targetURLTemplate": "https://terra.biodatacatalyst.nhlbi.nih.gov/#import-data?format=PFB&template=gen3&template=bdc&url={{PRESIGNED_URL}}",
-        "title": "Export to Cavatica",
+        "title": "Export to CAVATICA",
         "rightIcon": "external-link",
         "dropdownId": "sevenBridges"
       },
