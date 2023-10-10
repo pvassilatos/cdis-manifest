@@ -3,29 +3,42 @@
   "graphql": {
     "boardCounts": [
       {
-        "graphql": "_subject_count",
-        "name": "Subject",
-        "plural": "Subjects"
-      },
-      {
         "graphql": "_study_count",
         "name": "Study",
         "plural": "Studies"
       },
       {
-        "graphql": "_aliquot_count",
-        "name": "Aliquot",
-        "plural": "Aliquots"
+        "graphql": "_subject_count",
+        "name": "Subject",
+        "plural": "Subjects"
+      },
+      {
+        "graphql": "_submitted_aligned_reads_count",
+        "name": "Submitted Aligned Read",
+        "plural": "Submitted Aligned Reads"
+      },
+      {
+        "graphql": "_submitted_unaligned_reads_count",
+        "name": "Submitted Unaligned Read",
+        "plural": "Submitted Unaligned Reads"
       }
     ],
     "chartCounts": [
+      {
+        "graphql": "_study_count",
+        "name": "Study"
+      },
       {
         "graphql": "_subject_count",
         "name": "Subject"
       },
       {
-        "graphql": "_study_count",
-        "name": "Study"
+        "graphql": "_submitted_aligned_reads_count",
+        "name": "Submitted Aligned Reads",
+      },
+      {
+        "graphql": "_submitted_unaligned_reads_count",
+        "name": "Submitted Unaligned Reads"
       }
     ],
     "projectDetails": "boardCounts"
@@ -64,12 +77,20 @@
       "homepageChartNodesExcludeFiles": true,
       "homepageChartNodes": [
         {
-          "node": "subject",
-          "name": "Subjects"
-        },
-        {
           "node": "study",
           "name": "Studies"
+        },
+        {
+          "node": "subject",
+          "name": "Subjects",
+        },
+        {
+          "node": "submitted_aligned_reads",
+          "name": "Submitted Aligned Reads"
+        },
+        {
+          "node": "submitted_unaligned_reads",
+          "name": "Submitted Unaligned Reads"
         }
       ]
     },
