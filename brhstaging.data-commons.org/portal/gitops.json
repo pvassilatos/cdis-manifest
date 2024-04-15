@@ -41,6 +41,14 @@
           "color": "#a2a2a2"
         },
         {
+          "name": "AI Search",
+          "link": "https://brhstaging.data-commons.org/ff/AISearch",
+          "icon": "query",
+          "tooltip": "Use AI Search in a chat interface.",
+          "color": "#a2a2a2"
+        },
+
+        {
           "name": "Workspace",
           "link": "/workspace",
           "icon": "workspace",
